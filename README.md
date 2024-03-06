@@ -17,6 +17,7 @@ This code has been tested on Ubuntu-18.04 running on WSL2.
 ```bash
 conda create -n diffsim python=3.6 -y
 conda activate diffsim
+```
 
 2. Download and build the project.
 ```bash
