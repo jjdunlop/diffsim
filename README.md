@@ -11,24 +11,18 @@
 [[GitHub]](https://github.com/YilingQiao/diffsim)
 
 ## Setup
+This code has been tested on Ubuntu-18.04 running on WSL2.
+
 1. Create a conda virtual environment and activate it.
 ```bash
 conda create -n diffsim python=3.6 -y
 conda activate diffsim
 
-# install dependencies
-sudo apt install gcc-4.8 gcc-5
-sudo apt-get install libblas-dev liblapack-dev
-sudo apt-get install libopenblas-dev
-sudo apt-get install gfortran
-sudo apt-install scons
-sudo apt-install libpng-dev
-```
-
 2. Download and build the project.
 ```bash
-git clone [git@github.com:YilingQiao/diffsim.git](https://github.com/jjdunlop/diffsim.git)
+git clone https://github.com/jjdunlop/diffsim.git
 cd diffsim
+chmod +x installDependencies.sh
 bash installDependencies.sh
 pip install -r requirements.txt
 bash script_build.sh
