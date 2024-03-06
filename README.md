@@ -30,7 +30,6 @@ git clone https://github.com/jjdunlop/diffsim.git
 cd diffsim
 chmod +x installDependencies.sh
 bash installDependencies.sh
-pip install -r requirements.txt
 bash script_build.sh
 cd pysim
 ```
