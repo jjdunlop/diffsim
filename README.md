@@ -3,6 +3,7 @@
 
 # Scalable Differentiable Physics for Learning and Control
 
+## This is a forked repo from this paper
 *Yi-Ling Qiao, Junbang Liang, Vladlen Koltun, Ming C. Lin*
 
 [[Project]](https://gamma.umd.edu/researchdirections/mlphysics/diffsim/)
