@@ -35,4 +35,4 @@ sudo apt-get install -y --no-install-recommends \
     gfortran-4.8
 
 # Make the arcsim configure script executable
-chmod +x /arcsim/dependencies/taucs/configure
+chmod +x arcsim/dependencies/taucs/configure
