@@ -27,8 +27,9 @@ sudo apt-install libpng-dev
 
 2. Download and build the project.
 ```bash
-git clone git@github.com:YilingQiao/diffsim.git
+git clone [git@github.com:YilingQiao/diffsim.git](https://github.com/jjdunlop/diffsim.git)
 cd diffsim
+bash installDependencies.sh
 pip install -r requirements.txt
 bash script_build.sh
 cd pysim
